@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:text="Student status"
+        android:text="@string/lblStudentStatus"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Enter the value of math...!!!"
+        android:hint="@string/txtMath"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblStudentStatus" />
@@ -36,7 +36,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Enter the value of physical...!!!"
+        android:hint="@string/txtPhysical"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtMaths" />
@@ -48,7 +48,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Enter the value of chemistry...!!!"
+        android:hint="@string/txtChemistry"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPhysical" />
@@ -60,7 +60,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
         android:onClick="SetClearControls"
-        android:text="Clear"
+        android:text="@string/btnClear"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/btnEvaluate2"
         app:layout_constraintTop_toBottomOf="@+id/txtChemistry" />
@@ -72,7 +72,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:onClick="GetStudentStatus"
-        android:text="Evaluate"
+        android:text="@string/btnEvaluate"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtChemistry" />

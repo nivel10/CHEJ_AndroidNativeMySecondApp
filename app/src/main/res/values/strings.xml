@@ -1,3 +1,12 @@
 <resources>
+
     <string name="app_name">CHEJ_AndroidNativeMySecondApp</string>
+
+    <string name="lblStudentStatus">Student status...!!!</string>
+    <string name="txtMath">Enter the value of math...!!!</string>
+    <string name="txtPhysical">Enter the value of physical...!!!</string>
+    <string name="txtChemistry">Enter the value of chemistry...!!!</string>
+    <string name="btnEvaluate">Evaluate</string>
+    <string name="btnClear">Clear</string>
+
 </resources>
